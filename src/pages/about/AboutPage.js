@@ -5,7 +5,7 @@ import "./aboutpage.css"
 const AboutPage = () => {
   return (
     <div className="about">
-      <h1>About Us</h1>
+      <h1>About Us ..</h1>
       <p>
         We are a team of passionate individuals who strive to bring the best solutions to our customers.
         Our mission is to provide innovative and user-friendly products that make a difference in people's lives.
