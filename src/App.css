@@ -1,0 +1,34 @@
+
+.App {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column for small screens */
+    grid-template-rows: auto 1fr auto; /* Auto height for header and footer, flex-grow for content */
+    grid-template-areas:
+      "header"
+      "content"
+      "footer";
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-area: header;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+  }
+  
+  .content {
+    grid-area: content;
+    padding: 20px;
+    overflow-y: auto; /* Allow scrolling if content exceeds screen height */
+  }
+  
